@@ -22,7 +22,7 @@ public class PlatformManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
-            player_script.Collectables.Add(new GameObject("Collectable 1"));//This is way too long
+            //player_script.Collectables.Add(new GameObject("Collectable 1"));//This is way too long
             Debug.Log("Fired");
             player_script.ResetPlayer();
             gm.LoadGamesLevel("Scene 2");

@@ -70,7 +70,7 @@ public class Player2pt5 : MonoBehaviour
         rgbd.velocity = new Vector3(Time.smoothDeltaTime * HorizontalMoveMent * moveSpeed, Time.smoothDeltaTime * VerticalMoveMent * moveSpeed, rgbd.velocity.y+0.5f);//https://answers.unity.com/questions/1315922/using-rbvelocity-causes-low-gravity.html Still not sure this is the best movement format but it is the most function I've found so far may change later
         
     }
-    //
+    
     private void PlayerTakeDamage()
     {
         if (pa.health > 0)//If player has health take damage

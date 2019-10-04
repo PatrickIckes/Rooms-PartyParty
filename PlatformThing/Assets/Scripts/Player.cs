@@ -70,10 +70,10 @@ public class Player : MonoBehaviour
     //
     private void PlayerTakeDamage()
     {
-        if (health > 0)//If player has health take damage
+        if (pa.health > 0)//If player has health take damage
         {
-            health -= 1;
-            Debug.Log(health);
+            pa.health -= 1;
+            Debug.Log(pa.health);
         } else //If not Game is lost
         {
             gm.GameOver("You lose");
